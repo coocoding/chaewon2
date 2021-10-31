@@ -1,0 +1,24 @@
+server:
+  port:8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/user?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: root
+    password: cw1592
+    devtools:
+      livereload:
+        enabled: true
+      restart:
+        enabled: ture
+      thymeleaf:
+        cache: false
+  profiles:
+    include: oauth
+
+mybatis:
+  mapper-locations: classpath:mapper/**.xml
+
+tourapi:
+  key: I5h1Z%2FiMtKJyLUqerNVcwRYMHo1hgpDhCPVrAQ0TxyGPXsk9OMRRb6IMRVrvsxuGTb3K0A6zT6Qot%2FLwBtpLvw%3D%3D

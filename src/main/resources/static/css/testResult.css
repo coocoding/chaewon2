@@ -1,0 +1,223 @@
+html,body {
+     width: 100%;
+     height: 100%;
+}
+body{
+    margin:0;
+}
+.container1{
+    text-align:center;
+    width: 100%;
+    height: auto;
+    margin:0
+}
+.container2{
+    text-align:center;
+    background-image: url("/img/testResult/결과페이지모래배경.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    padding-bottom:900px;
+}
+.top2{
+    margin-top:50px;
+    flex-wrap: wrap;
+    margin-bottom:50px;
+}
+.top1{
+    background-image: url("/img/travelPage/여행페이지배경.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+#border{
+  width: 34rem;
+  display:inline-block;
+  border-radius:30px;
+  word-break:normal;
+}
+.bottom1{
+    background-image: url("/img/testResult/결과부분 모래사장2 3.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+#characterImg{
+    width:10rem;
+    border-radius:20px;
+    margin-bottom:1.2rem;
+}
+#goodTypeImg{
+       height:5rem;
+       margin-bottom:5px;
+}
+#badTypeImg{
+       height:5rem;
+       margin-bottom:5px;
+}
+.left{
+    display:inline-block;
+
+}
+.right{
+    display:inline-block;
+}
+#back_color1{
+    background-image: url("/img/testResult/결과부분 모래사장2 3.png");
+    background-size:cover;
+    opacity:0.5
+}
+
+#back_color2{
+    background-image: url("/img/testResult/결과부분 모래사장2 3.png");
+    background-size:cover;
+    opacity:0.8;
+}
+.map_wrap{
+   position: relative;
+}
+.map{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   transform: translate(-50%, -50%);
+  }
+#type{
+    padding-top:8vh;
+}
+#title12{
+    font-weight: bold;
+}
+
+#addr{
+    font-size:0.8rem;
+}
+#course_btn{
+    background-color:#DF6BAB;
+    border:0;
+    outline:0;
+    /*text-shadow: 0 1px 1px rgba(0,0,0,.3);*/
+    width:3.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    font-size:0.7rem;
+    border-radius:1rem;
+}
+.des-size{
+    display:inline-block;
+    width:34rem;
+}
+#map{
+    margin-top:15px;
+    display:inline-block;
+    border-radius:10px;
+}
+#relo{
+    border:5px solid white;
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    background-size:cover;
+    border-radius:10px;
+    height:16rem;
+}
+.top2{
+    display:flex;
+}
+.left2{
+    flex:2;
+}
+.right2{
+    flex:1;
+    display:flex;
+}
+.bottom2{
+    display:flex;
+    text-align:center;
+}
+.course{
+    width:5rem;
+    height:7rem;
+    flex:1;
+}
+.des-size>p{
+    size:1rem;
+}
+.back{
+    margin:auto;
+    width:15rem;
+    height:18rem;
+    background-color:white;
+}
+#back_top{
+    margin: auto;
+    margin-top:10px;
+    width:13rem;
+    height:6rem;
+
+}
+#container2_title{
+    padding-top:5rem;
+}
+.course{
+    margin-bottom:10rem;
+}
+.course{
+  text-align:center;
+}
+.course_menu{
+   width:6rem;
+   height:6rem;
+   border-radius:50%;
+   border:1px solid black;
+}
+
+#select_btn{
+    border:0;
+    outline:0;
+    /*text-shadow: 0 1px 1px rgba(0,0,0,.3);*/
+    width:6rem;
+}
+
+ .wrap {position: absolute;left: 0;bottom: 40px;width: 288px;height: 132px;margin-left: -144px;text-align: left;overflow: hidden;font-size: 12px;font-family: 'Malgun Gothic', dotum, 'ë‹ì›€', sans-serif;line-height: 1.5;}
+    .wrap * {padding: 0;margin: 0;}
+    .wrap .info {width: 286px;height: 120px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
+    .wrap .info:nth-child(1) {border: 0;box-shadow: 0px 1px 2px #888;}
+    .info .title {padding: 5px 0 0 10px;height: 30px;background: #eee;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
+    .info .close {position: absolute;top: 10px;right: 10px;color: #888;width: 17px;height: 17px;background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');}
+    .info .close:hover {cursor: pointer;}
+    .info .body {position: relative;overflow: hidden;}
+    .info .desc {position: relative;margin: 13px 0 0 90px;height: 75px;}
+    .desc .ellipsis {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+    .desc .jibun {font-size: 11px;color: #888;margin-top: -2px;}
+    .info .img {position: absolute;top: 6px;left: 5px;width: 73px;height: 71px;border: 1px solid #ddd;color: #888;overflow: hidden;}
+    .info:after {content: '';position: absolute;margin-left: -12px;left: 50%;bottom: 0;width: 22px;height: 12px;background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+    .info .link {color: #5085BB;}
+
+
+@media screen and (max-width:1799px) {
+ /* ë°ìŠ¤íŠ¸ íƒ‘ */
+    html{
+        font-size:20px;
+    }
+    .left{
+       padding-right:300px;
+    }
+    img{
+        /*ì´ê±¸ ì“°ë©´ ì§€ë„ê°€ grid ëª¨ì–‘ìœ¼ë¡œ ë‚˜ì˜¨ë‹¤.*/
+        /*padding:10px;*/
+    }
+
+}
+
+@media screen and (max-width:599px) {
+/* ëª¨ë°”ì¼ ì„¸ë¡œ */
+    html{
+        font-size:10px;
+    }
+    .left{
+       padding-right:180px;
+    }
+    img{
+       /* padding:6px; */
+    }
+}
